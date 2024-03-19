@@ -214,7 +214,14 @@ html {
     position: relative;
 }
 
-.hello__backround {}
+.hello__backround {
+    overflow: hidden;
+}
+
+.hello__backround img {
+    width: 100vw;
+    object-fit: cover;
+}
 
 ._container {}
 
